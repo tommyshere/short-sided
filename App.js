@@ -84,6 +84,11 @@ export default function App() {
         updated[currentHole - 1].upAndDown = null;
       }
 
+      // If up and down is successful, set score to par (0)
+      if (field === 'upAndDown' && value === true) {
+        updated[currentHole - 1].scoreToPar = 0;
+      }
+
       return updated;
     });
   };
@@ -260,9 +265,9 @@ export default function App() {
             </View>
 
             <View style={styles.statCard}>
-              <Text style={styles.statValue}>{stats.puttsPerHole}</Text>
-              <Text style={styles.statLabel}>Putts/Hole</Text>
-              <Text style={styles.statDetail}>{stats.totalPutts} total</Text>
+              <Text style={styles.statValue}>{stats.totalPutts}</Text>
+              <Text style={styles.statLabel}>Total Putts</Text>
+              <Text style={styles.statDetail}>{stats.puttsPerHole}/hole</Text>
             </View>
           </View>
 
@@ -497,6 +502,25 @@ export default function App() {
             </TouchableOpacity>
           )}
         </View>
+
+          {/* End Round Early Button - only show if at least one hole completed and not on hole 18 */}
+          {currentHole < 18 && holes.some(h => h.greenInRegulation !== null) && (
+            <TouchableOpacity 
+              style={styles.endRoundButton} 
+              onPress={() => {
+                Alert.alert(
+                  'End Round Early',
+                  `End your round after ${holes.filter(h => h.greenInRegulation !== null).length} holes?`,
+                  [
+                    { text: 'Cancel', style: 'cancel' },
+                    { text: 'End Round', onPress: () => setShowSummary(true) },
+                  ]
+                );
+              }}
+            >
+              <Text style={styles.endRoundButtonText}>End Round Now</Text>
+            </TouchableOpacity>
+          )}
 
           {/* New Round Button */}
           <TouchableOpacity style={styles.newRoundButton} onPress={startNewRound}>
@@ -736,6 +760,21 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     color: '#ffffff',
+  },
+  endRoundButton: {
+    marginHorizontal: 16,
+    marginTop: 20,
+    paddingVertical: 14,
+    backgroundColor: 'rgba(198, 40, 40, 0.3)',
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: '#c62828',
+    alignItems: 'center',
+  },
+  endRoundButtonText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#ff8a80',
   },
   newRoundButton: {
     marginHorizontal: 16,

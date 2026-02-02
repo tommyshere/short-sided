@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017963D5771CCFF67EFABF37 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 422C40DBC396A9FDFA9E314D /* PrivacyInfo.xcprivacy */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		8EB111C1C9E842C9385FF1A7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8CC2EC6E2F91DE32539EDA1A /* PrivacyInfo.xcprivacy */; };
-		AA9DF0D478294E100A2229FB /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B17D5146AEB4C667B3371 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		E8DBEF7DCEAACE50A5AEE744 /* libPods-ShortSided.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB062069A6AB876FA651C74E /* libPods-ShortSided.a */; };
+		D13DDA7B866071EDF8ABDB1B /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF22919E1E144B720319F28 /* ExpoModulesProvider.swift */; };
+		DF754E8DB3BC26EFE073E321 /* libPods-ShortSided.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119E7CDB6C14BBEDEAC3A9BE /* libPods-ShortSided.a */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06AFC8942E95A5404ACD4B97 /* Pods-ShortSided.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortSided.debug.xcconfig"; path = "Target Support Files/Pods-ShortSided/Pods-ShortSided.debug.xcconfig"; sourceTree = "<group>"; };
+		003A15EB055D463D007F76CB /* Pods-ShortSided.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortSided.release.xcconfig"; path = "Target Support Files/Pods-ShortSided/Pods-ShortSided.release.xcconfig"; sourceTree = "<group>"; };
+		119E7CDB6C14BBEDEAC3A9BE /* libPods-ShortSided.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShortSided.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* ShortSided.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortSided.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ShortSided/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ShortSided/Info.plist; sourceTree = "<group>"; };
-		2EE7C4D6302E687412668C12 /* Pods-ShortSided.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortSided.release.xcconfig"; path = "Target Support Files/Pods-ShortSided/Pods-ShortSided.release.xcconfig"; sourceTree = "<group>"; };
-		8CC2EC6E2F91DE32539EDA1A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ShortSided/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		989B17D5146AEB4C667B3371 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ShortSided/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		3DF22919E1E144B720319F28 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ShortSided/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		422C40DBC396A9FDFA9E314D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ShortSided/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		71D0C0B4AB8ACD69ADFD8686 /* Pods-ShortSided.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortSided.debug.xcconfig"; path = "Target Support Files/Pods-ShortSided/Pods-ShortSided.debug.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = ShortSided/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		CB062069A6AB876FA651C74E /* libPods-ShortSided.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShortSided.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ShortSided/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* ShortSided-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ShortSided-Bridging-Header.h"; path = "ShortSided/ShortSided-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,13 +37,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8DBEF7DCEAACE50A5AEE744 /* libPods-ShortSided.a in Frameworks */,
+				DF754E8DB3BC26EFE073E321 /* libPods-ShortSided.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		114256D73E5F2B7F9CD38FDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71D0C0B4AB8ACD69ADFD8686 /* Pods-ShortSided.debug.xcconfig */,
+				003A15EB055D463D007F76CB /* Pods-ShortSided.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* ShortSided */ = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +62,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				8CC2EC6E2F91DE32539EDA1A /* PrivacyInfo.xcprivacy */,
+				422C40DBC396A9FDFA9E314D /* PrivacyInfo.xcprivacy */,
 			);
 			name = ShortSided;
 			sourceTree = "<group>";
@@ -62,17 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CB062069A6AB876FA651C74E /* libPods-ShortSided.a */,
+				119E7CDB6C14BBEDEAC3A9BE /* libPods-ShortSided.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		44A6C7B0D794F3E113A6C214 /* ShortSided */ = {
-			isa = PBXGroup;
-			children = (
-				989B17D5146AEB4C667B3371 /* ExpoModulesProvider.swift */,
-			);
-			name = ShortSided;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -89,8 +90,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				B1063D111DED07214B9246B7 /* Pods */,
-				A9C869804184158CD6E73854 /* ExpoModulesProviders */,
+				114256D73E5F2B7F9CD38FDD /* Pods */,
+				E57145E06918402785E5F1F4 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -105,23 +106,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9C869804184158CD6E73854 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				44A6C7B0D794F3E113A6C214 /* ShortSided */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		B1063D111DED07214B9246B7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				06AFC8942E95A5404ACD4B97 /* Pods-ShortSided.debug.xcconfig */,
-				2EE7C4D6302E687412668C12 /* Pods-ShortSided.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +113,22 @@
 			);
 			name = Supporting;
 			path = ShortSided/Supporting;
+			sourceTree = "<group>";
+		};
+		D7389C92D2199A23222CCF84 /* ShortSided */ = {
+			isa = PBXGroup;
+			children = (
+				3DF22919E1E144B720319F28 /* ExpoModulesProvider.swift */,
+			);
+			name = ShortSided;
+			sourceTree = "<group>";
+		};
+		E57145E06918402785E5F1F4 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				D7389C92D2199A23222CCF84 /* ShortSided */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,13 +139,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ShortSided" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				4F4209DBA083AD411893E8A9 /* [Expo] Configure project */,
+				2800003B8285B56572392C03 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				7E8EB90C2F3081C448B45815 /* [CP] Embed Pods Frameworks */,
+				53D65D2C7FA243D655F42BCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,7 +195,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				8EB111C1C9E842C9385FF1A7 /* PrivacyInfo.xcprivacy in Resources */,
+				017963D5771CCFF67EFABF37 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +241,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4F4209DBA083AD411893E8A9 /* [Expo] Configure project */ = {
+		2800003B8285B56572392C03 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -265,7 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-ShortSided/expo-configure-project.sh\"\n";
 		};
-		7E8EB90C2F3081C448B45815 /* [CP] Embed Pods Frameworks */ = {
+		53D65D2C7FA243D655F42BCB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,7 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				AA9DF0D478294E100A2229FB /* ExpoModulesProvider.swift in Sources */,
+				D13DDA7B866071EDF8ABDB1B /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,12 +332,12 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06AFC8942E95A5404ACD4B97 /* Pods-ShortSided.debug.xcconfig */;
+			baseConfigurationReference = 71D0C0B4AB8ACD69ADFD8686 /* Pods-ShortSided.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ShortSided/ShortSided.entitlements;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7FR982Y9AU;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -357,24 +357,28 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shortsided.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nutgolf.shortsided;
 				PRODUCT_NAME = ShortSided;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "ShortSided/ShortSided-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EE7C4D6302E687412668C12 /* Pods-ShortSided.release.xcconfig */;
+			baseConfigurationReference = 003A15EB055D463D007F76CB /* Pods-ShortSided.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ShortSided/ShortSided.entitlements;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7FR982Y9AU;
 				INFOPLIST_FILE = ShortSided/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -389,11 +393,15 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shortsided.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nutgolf.shortsided;
 				PRODUCT_NAME = ShortSided;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "ShortSided/ShortSided-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
